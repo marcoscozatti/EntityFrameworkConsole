@@ -13,6 +13,7 @@ namespace EntityFramework_linq
 		{
 			//incluir
 			new RepositorioCategoria().AdicionarCategoria(0, "Carros");
+			new RepositorioCategoria().AdicionarCategoria(0, "Motos");
 
 			//Alterar
 			//new RepositorioCategoria().AlterarCategoria(9, "Frutas Doces");
@@ -21,7 +22,7 @@ namespace EntityFramework_linq
 			//new RepositorioCategoria().ExcluirCategoria(11);
 
 
-			
+
 		}
 	}
 }
